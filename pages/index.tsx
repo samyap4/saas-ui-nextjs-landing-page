@@ -97,19 +97,18 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                Performance Management for the <Br /> Next Generation
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+                Amplify Talent <Em>Develops Leaders</Em>
+                <Br /> That Inspire Employee Loyalty <Br /> And Builds Culture
+                Powered by <Em>AI</Em>
               </FallInPlace>
             }
           >
-            <FallInPlace delay={0.8}>
+            {/* <FallInPlace delay={0.8}>
               <HStack pt="4" pb="12" spacing="8">
                 <NextjsLogo height="28px" /> <ChakraLogo height="20px" />
               </HStack>
@@ -138,7 +137,7 @@ const HeroSection: React.FC = () => {
                   View demo
                 </ButtonLink>
               </ButtonGroup>
-            </FallInPlace>
+            </FallInPlace> */}
           </Hero>
           <Box
             height="600px"
@@ -174,33 +173,34 @@ const HeroSection: React.FC = () => {
         pt="20"
         features={[
           {
-            title: "Accessible",
+            title: "Accountability",
             icon: FiSmile,
-            description: "All components strictly follow WAI-ARIA standards.",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             iconPosition: "left",
             delay: 0.6,
           },
           {
-            title: "Themable",
+            title: "Equality",
             icon: FiSliders,
             description:
-              "Fully customize all components to your brand with theme support and style props.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             iconPosition: "left",
             delay: 0.8,
           },
           {
-            title: "Composable",
+            title: "Transparency",
             icon: FiGrid,
             description:
-              "Compose components to fit your needs and mix them together to create new ones.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             iconPosition: "left",
             delay: 1,
           },
           {
-            title: "Productive",
+            title: "Productivity",
             icon: FiThumbsUp,
             description:
-              "Designed to reduce boilerplate and fully typed, build your product at speed.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             iconPosition: "left",
             delay: 1.1,
           },
@@ -216,16 +216,16 @@ const HighlightsSection = () => {
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Core components">
+      <HighlightsItem colSpan={[1, null, 2]} title="Visibility">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Get started for free with <Em>30+ open source components</Em>.
-            Including authentication screens with Clerk, Supabase and Magic.
-            Fully functional forms with React Hook Form. Data tables with React
-            Table.
+            Leaders account for <Em>70%</Em> of the variance in their own
+            team&#39;s engagement levels. Companies in the top-quartile of
+            employee engagement levels outperform those in the bottom quartile
+            by <Em>23%</Em>.
           </Text>
 
-          <Flex
+          {/* <Flex
             rounded="full"
             borderWidth="1px"
             flexDirection="row"
@@ -253,14 +253,14 @@ const HighlightsSection = () => {
               isRound
               color="white"
             />
-          </Flex>
+          </Flex> */}
         </VStack>
       </HighlightsItem>
-      <HighlightsItem title="Solid foundations">
+      <HighlightsItem title="Retention">
         <Text color="muted" fontSize="lg">
-          We don&apos;t like to re-invent the wheel, neither should you. We
-          selected the most productive and established tools in the scene and
-          build Saas UI on top of it.
+          Nearly <Em>6 out of 10</Em> employees are globally are quiet quitting.
+          The global cost of quiet qutting is estimated to be{" "}
+          <Em>$8.8 Trillion</Em>
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
@@ -269,37 +269,27 @@ const HighlightsSection = () => {
         avatar="/static/images/avatar.jpg"
         gradient={["pink.200", "purple.500"]}
       >
-        “Saas UI helped us set up a beautiful modern UI in no time. It saved us
-        hundreds of hours in development time and allowed us to focus on
-        business logic for our specific use-case from the start.”
+        “Amplify Talent helps me scale our performance-based culture by
+        providing necessary controls to ensure we retain the right talent and
+        reward those who deserve it.”
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
-        title="Start your next idea two steps ahead"
+        title="Start your next cycle with AI-powered insights"
       >
         <Text color="muted" fontSize="lg">
-          We took care of all your basic frontend needs, so you can start
-          building functionality that makes your product unique.
+          We took care of all the hard-work so you can immediately start gaining
+          valuable insights.
         </Text>
         <Wrap mt="8">
           {[
-            "authentication",
-            "navigation",
-            "crud",
-            "settings",
-            "multi-tenancy",
-            "layouts",
-            "billing",
-            "a11y testing",
-            "server-side rendering",
-            "documentation",
-            "onboarding",
-            "storybooks",
-            "theming",
-            "upselling",
-            "unit testing",
-            "feature flags",
-            "responsiveness",
+            "Sentiment Analysis",
+            "Privacy Controls",
+            "Alerting",
+            "Dashboard",
+            "Reporting",
+            "Recommendations",
+            "Performance Plans",
           ].map((value) => (
             <Tag
               key={value}
@@ -329,15 +319,15 @@ const FeaturesSection = () => {
           as="p"
         >
           Not your standard
-          <Br /> dashboard template.
+          <Br /> HR platform.
         </Heading>
       }
       description={
         <>
-          Saas UI Pro includes everything you need to build modern frontends.
+          Amplify Talent breaks the wheel in terms of employee reviews.
           <Br />
-          Use it as a template for your next product or foundation for your
-          design system.
+          Our platform helps companies identify discrepancies caused by poor
+          leadership.
         </>
       }
       align="left"
@@ -345,73 +335,73 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Components.",
+          title: "AI-Powered.",
           icon: FiBox,
           description:
-            "All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.",
+            "Our AI models can detect sentiment analysis on self/peer/manager reviews for accuracy.",
           variant: "inline",
         },
         {
-          title: "Starterkits.",
+          title: "Visibility.",
           icon: FiLock,
           description:
-            "Example apps in Next.JS, Electron. Including authentication, billing, example pages, everything you need to get started FAST.",
+            "Our platorm can run analysis over time to inform people leaders about disconnects in reviews.",
           variant: "inline",
         },
         {
-          title: "Documentation.",
+          title: "Privacy.",
           icon: FiSearch,
           description:
-            "Extensively documented, including storybooks, best practices, use-cases and examples.",
+            "Our service ensure employee data is handled properly between all parties.",
           variant: "inline",
         },
-        {
-          title: "Onboarding.",
-          icon: FiUserPlus,
-          description:
-            "Add user onboarding flows, like tours, hints and inline documentation without breaking a sweat.",
-          variant: "inline",
-        },
-        {
-          title: "Feature flags.",
-          icon: FiFlag,
-          description:
-            "Implement feature toggles for your billing plans with easy to use hooks. Connect Flagsmith, or other remote config services once you're ready.",
-          variant: "inline",
-        },
-        {
-          title: "Upselling.",
-          icon: FiTrendingUp,
-          description:
-            "Components and hooks for upgrade flows designed to make upgrading inside your app frictionless.",
-          variant: "inline",
-        },
-        {
-          title: "Themes.",
-          icon: FiToggleLeft,
-          description:
-            "Includes multiple themes with darkmode support, always have the perfect starting point for your next project.",
-          variant: "inline",
-        },
-        {
-          title: "Generators.",
-          icon: FiTerminal,
-          description:
-            "Extend your design system while maintaininig code quality and consistency with built-in generators.",
-          variant: "inline",
-        },
-        {
-          title: "Monorepo.",
-          icon: FiCode,
-          description: (
-            <>
-              All code is available as packages in a high-performance{" "}
-              <Link href="https://turborepo.com">Turborepo</Link>, you have full
-              control to modify and adjust it to your workflow.
-            </>
-          ),
-          variant: "inline",
-        },
+        // {
+        //   title: "Onboarding.",
+        //   icon: FiUserPlus,
+        //   description:
+        //     "Add user onboarding flows, like tours, hints and inline documentation without breaking a sweat.",
+        //   variant: "inline",
+        // },
+        // {
+        //   title: "Feature flags.",
+        //   icon: FiFlag,
+        //   description:
+        //     "Implement feature toggles for your billing plans with easy to use hooks. Connect Flagsmith, or other remote config services once you're ready.",
+        //   variant: "inline",
+        // },
+        // {
+        //   title: "Upselling.",
+        //   icon: FiTrendingUp,
+        //   description:
+        //     "Components and hooks for upgrade flows designed to make upgrading inside your app frictionless.",
+        //   variant: "inline",
+        // },
+        // {
+        //   title: "Themes.",
+        //   icon: FiToggleLeft,
+        //   description:
+        //     "Includes multiple themes with darkmode support, always have the perfect starting point for your next project.",
+        //   variant: "inline",
+        // },
+        // {
+        //   title: "Generators.",
+        //   icon: FiTerminal,
+        //   description:
+        //     "Extend your design system while maintaininig code quality and consistency with built-in generators.",
+        //   variant: "inline",
+        // },
+        // {
+        //   title: "Monorepo.",
+        //   icon: FiCode,
+        //   description: (
+        //     <>
+        //       All code is available as packages in a high-performance{" "}
+        //       <Link href="https://turborepo.com">Turborepo</Link>, you have full
+        //       control to modify and adjust it to your workflow.
+        //     </>
+        //   ),
+        //   variant: "inline",
+        // },
       ]}
     />
   );
@@ -425,7 +415,7 @@ const TestimonialsSection = () => {
 
         return columns;
       },
-      [[], [], []]
+      [[], [], []],
     );
   }, []);
 
@@ -468,10 +458,9 @@ export async function getStaticProps() {
   return {
     props: {
       announcement: {
-        title: "Support us by becoming a stargazer! 🚀 ",
-        description:
-          '<img src="https://img.shields.io/github/stars/saas-js/saas-ui.svg?style=social&label=Star" />',
-        href: "https://github.com/saas-js/saas-ui",
+        title: "Announcing our Series A funding! {blog link} 🚀 ",
+        description: "",
+        href: "https://amplifytalent.ai",
         action: false,
       },
     },
